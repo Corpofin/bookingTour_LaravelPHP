@@ -37,7 +37,8 @@
     </header><!-- #header -->
 
     <!-- start banner Area -->
-    @yield('content-banner')
+    @section('content-banner')
+    @show
     <!-- End banner Area -->
 
     <!-- Start popular-destination Area -->
@@ -45,7 +46,8 @@
     @show
     <!-- End popular-destination Area -->
 
-    @yield('content')
+    @section('content')
+    @show
 
     <!-- start footer Area -->
     @include('layouts.elements.footer')
