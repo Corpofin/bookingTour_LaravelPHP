@@ -58,3 +58,31 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+******************************************** RUN PROJECT *********************************************
+
+step 1: Run composer & npm to install all dependencies:
+          composer install
+          npm install 
+
+step 2:Create database for the project: Menu > MySQL > Create database
+        for example: laraboiler
+        Create your .env from .env.example
+        cp .env.example .env
+        Update your .env (change database connection properly)
+        DB_CONNECTION=mysql          
+        DB_HOST=127.0.0.1            
+        DB_PORT=3306                 
+        DB_DATABASE=laraboiler       
+        DB_USERNAME=root             
+        DB_PASSWORD=                 
+
+step 3: change your database and password for suitable with project
+
+step 4: Generate application key
+          php artisan key:generate
+
+step 5: Init data to database
+          php artisan migrate
+          php artisan db:seed
