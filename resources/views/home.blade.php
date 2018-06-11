@@ -125,6 +125,7 @@
 
 @section('content')
 <!-- Start price Area -->
+
 <section class="price-area section-gap">
   <div class="container">
     <div class="row d-flex justify-content-center">
