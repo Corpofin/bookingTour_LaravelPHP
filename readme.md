@@ -71,8 +71,10 @@ step 1: Run composer & npm to install all dependencies:
 
 step 2:Create database for the project: Menu > MySQL > Create database
         for example: laraboiler
-        Create your .env from .env.example
-        cp .env.example .env
+        <p>Create your .env from .env.example</p>
+        </br>
+        <code>cp .env.example .env</code>
+        </br>
         Update your .env (change database connection properly)
         DB_CONNECTION=mysql          
         DB_HOST=127.0.0.1            
