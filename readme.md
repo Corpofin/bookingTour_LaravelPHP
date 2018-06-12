@@ -65,9 +65,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ******************************************** RUN PROJECT *********************************************
 
 step 1: Run composer & npm to install all dependencies:
-        <p>composer install</p>
+        <code>composer install</code>
         </br>
-        <p>npm install</p>
+        <code>npm install</code>
 
 step 2:Create database for the project: Menu > MySQL > Create database
         for example: laraboiler
@@ -87,9 +87,9 @@ step 3: change your database and password for suitable with project
 
 step 4: Generate application key
         </br>
-         <p> php artisan key:generate</p>
+         <code> php artisan key:generate</code>
 
 step 5: Init data to database
-          <p>php artisan migrate</p>
+          <code>php artisan migrate</code>
           </br>
-          <p>php artisan db:seed</p>
+          <code>php artisan db:seed</code>
