@@ -93,3 +93,6 @@ step 5: Init data to database</br>
           <code>php artisan migrate</code>
           </br>
           <code>php artisan db:seed</code>
+         
+step 6: Run Project </br>
+        php artisan serve
